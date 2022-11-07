@@ -1,4 +1,6 @@
-export interface IOrders {
+interface IOrders {
   id?:number,
   userId?:number,
 }
+
+export default IOrders;
